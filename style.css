@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+}
+div.post {
+    background-color: white;
+}
+.container {
+    width: 500px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+img {
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+}
+
+div.encabezado {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+
+}
+.nombre {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+.descripcion {
+    margin: auto;
+    width: 450px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.iconos {
+    display: flex;
+}
+.guardar {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.ic1 {
+    padding-right: 10px;
+}
+.ic2 {
+    padding-right: 10px;
+}
+
